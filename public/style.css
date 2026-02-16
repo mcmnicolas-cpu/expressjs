@@ -1,0 +1,45 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 40px;
+    background: #fff;
+    color: #000;
+}
+
+/* Header */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Navigation bar */
+nav {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 8px 15px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+
+nav a:hover {
+    background-color: #f0f0f0;
+}
